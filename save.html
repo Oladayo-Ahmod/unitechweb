@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.front,.back{
+			object-fit: cover;
+			height: 500px;
+			width: 700px;
+			overflow: hidden;
+			position: absolute;
+			backface-visibility: hidden;
+			transition: transform 1s ease-in;
+
+		}
+		.front:hover{
+			transform: rotateY(0deg);
+
+		}
+		.back:hover{
+			transform:rotateY(180deg);
+		}
+		.other{
+			position: relative;
+			top: 500px;
+		}
+	</style>
+</head>
+<body>
+	<div class="front">
+		<img src="geekpointone.jpg" height="400px" width="600px">
+	</div>
+	<div class="back">
+		<img src="geekpointthree.png" height="400px" width="600px">
+	</div>
+	<div class="other">
+	<textarea id="text" type="text" name="text"></textarea>
+	<button type="button" id="speak">Click now</button>
+</div>
+	<script type="text/javascript">
+	var text = document.querySelector("#text");
+	var speak  = document.querySelector("#speak");
+
+	function speaking(){
+		var speech = new SpeechSynthesisUtterance();
+		speech.rate = 0.7;
+		speech.pitch = 0.5;
+		speech.volume = 5;
+		speech.text = text.value;
+		speech.voices = SpeechSynthesis.getVoices()[0];
+		speak.voices(speech);
+	}
+	speak.onclick = function(e){
+		alert("nam")
+		e.preventDefault();
+		speaking();
+	}
+</script>
+</body>
+</html>

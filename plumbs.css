@@ -1,0 +1,1005 @@
+body{
+	padding:0;;
+	margin:0;
+	font-family:cursive,sans-serif;
+}
+.topone{
+	width:100%;
+	height:110px;
+	background-color:royalblue;
+}
+h2{
+	text-shadow: 4px 4px 5px black;
+	color:blue;
+	font-weight:bold;
+	top:50px;
+	font-size: 18px;
+	position:relative;
+	left:20px;
+}
+.spanone{
+	color:lightskyblue;
+	font-weight:bold;
+
+}
+h3{
+	display: none;
+	color:lightblue;
+    font-weight:lighter;
+    left:20px;
+    position:relative;
+    font-size:16px;
+    top: 22px;
+}
+#dropdown{
+	display: flex;
+	position: relative;
+	top: -130px;
+	padding: 10px;
+}
+.toptwo{
+	background-color:linen;
+	background-image:url('binary.jpg');
+	width:100%;
+	height:265px;
+
+}
+.toptwo img{
+	width:700px;
+	height:265px;
+	position: relative;
+	left: 300px; 
+}
+.location{
+	position: relative;
+	left: 370px;
+	top: 5px;
+	color:white;
+	font-size: 15px;
+}
+.medical{
+	position: relative;
+	left:650px;
+	top: -50px;
+	color: white;
+	font-size: 15px;
+}
+.call{
+	float: right;
+	top: -100px;
+	font-size: 15px;
+	right: 255px;
+	position: relative;
+	color: white;
+}
+.hand #hampone{
+	transform: translateY(4px) rotateZ(-45deg);
+	background-color: black;
+}
+.hand #hampthree{
+	transform: translateY(-6px) rotate(45deg);
+	background-color: black;
+}
+.hand #hamptwo{
+	opacity: 0;
+}
+div.hamburgers{
+	position: relative;
+	float: right;
+	bottom:90px;
+	left: 117px;
+	width: 50px;
+	height:12px;
+}
+.hamp{
+	background-color:white;
+	margin: 5px;
+	width: 100%;
+	height: 4px;
+	font-weight: bolder;
+
+}
+/* drop down section */
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color:royalblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/*
+.styles{
+	display: none;
+}
+#container{
+	list-style: none;
+}
+.style{
+	display:block;
+	margin:0;
+	padding:0;
+	list-style: none;
+	position: absolute;
+	right:2px;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	background-color: lightblue;
+	border-radius: 10%;
+}
+.style li{
+	width: 200px;
+	height:40px;
+	border-radius: 20%;
+	margin: 20px;
+	background-color: black;
+	opacity:0.7;
+	line-height: 40px;
+}
+.style li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.style li a:hover{
+	background-color: green;
+    width:200px;
+    height: 40px;
+    transition: 1s ease-in-out; 
+}
+.style li ol li{
+	display: block;
+}
+.style li:hover ol li{
+ margin: 0;
+ background-color:salmon;
+ transition: 1s ease-in;
+
+}
+*/
+#asides {
+	display:none;
+}
+.asidess #asides{
+	transition: 1s ease-in-out;
+	position:absolute;
+	right:-5px;
+	display: block;
+	top:100px;
+	display: block;
+	width: 300px;
+	height:300px;
+	background-color:antiquewhite;
+	z-index: 1;
+}
+.asidess{
+	display: block;
+}
+.asidess a{
+	display:block;
+}
+#dropdown{
+	display:none;
+	min-width: 140px;
+}
+#dropdown a{
+	position: relative;
+	color:lavender;
+	top: 80px;
+	left: -10px;
+	display:block;
+	text-decoration: none;
+	width: 200px;
+	height: 30px;
+	margin:0;
+	background-color:deeppink;
+}
+#dropdown a:hover{
+	background-color:cyan;
+	font-weight: bolder;
+	display: block;
+}
+#asideone naming:hover #dropdown{
+ display: block;
+}
+#dropdown:hover #asideone{
+	background-color: #3e8e41;
+}
+#buttons .next{
+	display: block;
+}
+.button .next{
+	display:none;
+}
+.spantwo,.spang{
+	color: yellow;
+}
+.prev{
+	position: relative;
+	color:red;
+	float: left;
+	font-size:30px;
+	left:30px;
+	bottom:-100px;
+	display:inline-block;
+	border:2px solid grey;
+}
+.next{
+	position: relative;
+	color:red;
+	float: right;
+	font-size:30px;
+	right:30px;
+	border: 2px solid grey;
+	display:inline-block;
+	bottom: -100px;
+}
+.prev,.next{
+	background-color: red;
+	display: inline-block;
+	color:white;
+}
+.more{
+	color:white;
+	border: none;
+	outline: none;
+	border-radius: 15%;
+	transition-property: name;
+	transition-duration: 2s;
+}
+.more:hover{
+	color:dimgrey;
+	background-color: #fff;
+	border: 1px solid dimgrey;
+}
+.all{
+    margin-top:-45px; 
+	width:100%;
+	height:200px;
+	background-color:#fff;
+}
+.topfour{
+    position: relative;
+    top: 20px;
+	max-width: 800px;
+	margin:auto;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	word-spacing: 3pxo;
+	position: relative;
+	animation: four;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+.more{
+	position: relative;
+	top: 5px;
+	left: 580px;
+	margin-bottom: 40px;
+	padding: 10px;
+	display: inline-block;
+	background-color:dodgerblue;
+	color: white;
+	border: 1px solid white;
+	animation-name: flow;
+	animation-duration: 2s;
+	transition-property: transform;
+	transition-duration: 3s;
+}
+.more:hover{
+   transform: rotateY(180deg);
+
+}
+.more:hover a{
+	color: dodgerblue;
+}
+@keyframes flow{
+	0%{
+		opacity:0
+			
+	}
+	30%{
+		opacity: 0.2
+	}
+	40%{
+		opacity: 0.3
+	}
+	50%{
+		opacity: 0.3
+	}
+	70%{
+		opacity: 0.4
+	}
+	80%{
+		opacity: 0.4
+	}
+	90%{
+		opacity: 0.6
+	}
+	100%{
+		opacity:1
+	}
+}
+.carousel-inner img{
+	margin: 13px;
+}
+.more a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+h1{
+	top:20px;
+	text-shadow: 5px 5px 4px black;
+	position: relative;
+	text-align: center;
+	color:black;
+	left:-280px;
+	font-size: 23px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	animation: header;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+@keyframes header{
+	0%{left:-600px;}
+	100%{left:-50px;}
+}
+@keyframes four{
+	0%{right:-1000px;}
+	100%{right:0;}
+}
+/*flex of the four containers*/
+#notyet{
+	width: 100%;
+	height: 300px;
+	background-color: skyblue;
+}
+
+}
+/*dropdown links session of css and family associated*/
+.drops{
+	top:-150px;
+	position:relative;
+	display:inline-block;
+}
+.button{
+	background-color:dimgrey;
+	color:white;
+	border:none;
+	font-size:15px;
+	min-width:80px;
+	height:35px;
+	transition-property:background-color;
+	transition-duration:2s;
+}
+.button:hover{
+	background-color:orange;
+}
+.button a:active{
+	color:white;
+	background-color:lightgreen;
+}
+.dropdown-one{
+	position:relative;
+	display:inline-block;
+}
+
+.links{
+	display:none;
+	position:absolute;
+	background-color:lightgreen;
+    min-width:160px;
+    box-shadow:10px 18px 16px 0px rgba(0,0,0,0,2);
+}
+/*links apart begins*/
+
+.link a{
+	text-decoration:none;
+	color:white;
+}
+.but{
+	text-decoration:none;
+	background-color:lightgreen;
+    position:absolute;	
+}
+.but a{
+	text-decoration:none;
+}
+/*dropdown links session of css*/
+.links a{
+	text-decoration:none;
+	display:block;
+	padding:12px 16px;
+}
+.links a:hover{
+	background-color:lightgreen;
+}
+
+.drops:hover .links{
+	display:block;
+	background-color:dimgrey;
+}
+.home{
+	background-color:grey;
+	color:grey;
+	display: inline-block;
+	padding:5px;
+	border: none;
+	outline:none;
+	transition-property: hover;
+	transition-duration: 2s;
+}
+/* service section */
+#service{
+	position:relative;
+	display: flex;
+	justify-content:center;
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:20px; 
+	background-color:black;
+	margin-bottom:300px;
+}
+.box:hover{
+	transition: 1s ease-in-out;
+	background-color: #fff;
+}
+.front-image,.back-image{
+	overflow: hidden;
+	object-fit: cover;
+	backface-visibility: hidden;
+	transition: transform 1s ease;
+}
+.back-image{
+	position: relative;
+	top: -280px;
+}
+.back-image:hover{
+	transform: rotateY(180deg);
+}
+.front-image:hover{
+	transform: rotateY(0deg);
+}
+.developing{
+	position: relative;
+	top: -280px;	
+}
+.box p{
+	position: relative;
+	top: -280px;	
+	margin-top:25px;
+	font-size: 15px;
+	word-spacing: 3px;
+	padding: 10px;
+	box-shadow: 0 60px 60px rgba(0,0,0,0.5);
+}
+.webdev{
+	position: relative;
+	bottom: -300px;
+	left:45px;
+	text-shadow: 4px 4px 4px grey;
+	font-weight: bolder;
+}
+.readweb{
+	margin-top:20px;
+	color:white;
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 20px;
+	border-radius: 15%;
+	transition:1s ease;
+
+	background-color:orange;
+}
+/* contact us section */
+#inform{
+	display: block;
+	width:100%;
+	height: 250px;
+	margin: 20px;
+	background-color:azure;/*azure*/
+}
+h4{
+	display:block;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: 50px;
+	font-weight: bolder;
+}
+.contact{
+	font-size: 18px;
+	border:none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	width: 110px;
+	height: 40px;
+	border-radius: 30%;
+	position: relative;
+	left: 650px;
+	bottom: -50px;
+	background-color: orange;
+
+}
+.contact:hover{
+	background-color:red;
+	transition: 1s ease;
+	color: white;
+}
+#inform:hover h4{
+	display: block;
+	text-align: center;
+	animation-fill-mode: forwards;
+	animation-name:blow;
+	animation-duration: 2s;
+	transition: 1s ease-in-out; 
+}
+@keyframes blow{
+	0%{
+		left:-400px;
+	}
+	100%{
+		left:0px;
+	}
+
+}
+/* footer section  */
+#footone{
+	width: 100%;
+	height: 80px;
+	background-color: dimgray;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+}
+h5{
+	font-size:20px;
+	font-weight: bolder;
+	margin: 19px;
+	color: lightgrey;
+}
+.emailing{
+	font-size: 16px;
+	color: lightgrey;
+	position: relative;
+	top: -10px;
+	font-weight: bolder;
+}
+#inputing{
+	position: relative;
+	left: -80px;
+	top: 15px;
+	width: 220px;
+	height: 50px;
+	background-color: white;
+}
+.support{
+	width: 120px;
+	height: 50px;
+	position: relative;
+	left: -120px;
+	top: 15px;
+	border: none;
+	margin-left: -10px;
+	background-color: deeppink;
+	color: white;
+}
+form{
+	display: none;
+	transition: 1s ease-in;
+}
+.form{
+	display: block;
+	transition: 1s ease-in;
+}
+form{
+	text-align: center;
+	margin: 10px;
+	font-family: cursive;
+	height: 340px;
+}
+ form > label{
+	text-align: left;
+	font-size: 15px;
+	position: relative;
+	left: -120px;
+}
+ form > input{
+	width: 300px;
+	height: 40px;
+}
+form > input:focus{
+	transition: 0.5s ease;
+  top: -5px;
+  position: relative;
+  font-weight: bolder;
+}
+ #textarea{
+	position: relative;
+	left: 110px;
+}
+#buttoned{
+	margin: 10px;
+	width: 200px;
+	height: 30px;
+	background-color: red;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	position: relative;
+	bottom: -30px;
+	left: -145px;
+}
+ #buttoned:hover{
+	transition: 1s ease;
+	color: salmon;
+}
+#footer{
+	display: flex;
+	width: 100%;
+	justify-content:space-around;
+	height: 280px;
+	background-color: black;
+
+}
+.footer{
+	width:200px;
+	height:250px;
+	float: left;
+	font-size: 20px;
+	color: white;
+	position:relative;
+    
+
+
+}
+.footer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+	position:relative;
+	cursor: pointer;
+	top:80px;
+}
+.footer a:hover{
+	color: red;
+}
+h6{
+	font-size: 20px;
+	color: grey;
+	position: relative;
+	top:80px;
+}
+#span{
+	position: relative;
+	top: 80px;
+}
+#last{
+	position:absolute;
+	width: 100%;
+	height:50px;
+	background-color:deeppink;
+}
+.final{
+	font-size: 18px;
+	color:white;
+	text-align: center;
+	margin: 15px;
+}
+.back{
+	margin-top: 50px;
+	position:relative;
+	width: 100%;
+	height:40px;
+	background-color:grey;
+}
+.backtotop{
+	font-size: 18px;
+	color:white;
+	text-align: center;
+	margin: 15px;
+	word-spacing: 15px;	
+}
+.backtotop a{
+	color:#fff;
+}
+.backtotop a:hover{
+	font-weight: bolder;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.checkit{
+	width: 100px;
+	height: 50px;
+	outline: none;
+	background-color: grey;
+
+}
+/* media query section */
+@media screen and (max-width: 700px){
+	.box{
+		width:80%;
+	}
+	.box p{
+		font-size: 13px;
+	}
+	.box img{
+		width: 100%; 
+	}
+	#service{
+		display:block;
+		margin: 10px;
+	}
+
+	.topone{
+		width: 100%;
+	}
+	.location{
+		display: none;
+	}
+	.developing{
+		height: 
+		margin-bottom: 50px;
+	}
+	h2{
+		left: 0;
+		font-size: 13px;
+		position: relative;
+		top: 55px;
+		font-weight:bold;
+	}
+	h3{
+		position: relative;
+		top:27px;
+		left: 0;
+		font-family: sans-serif;
+		width: 140px;
+		display: none;
+		font-size: 10px;
+		font-weight: lighter;
+	}
+	.medical{
+	position: relative;
+	left:125px;
+	font-size: 10px;
+	top: 15px;
+	color: white;
+	}
+	.spang{
+	position: relative;
+	left:0;
+	font-size: 10px;
+	top:0;
+	color: yellow;
+	}
+	.call{
+		display: none;
+	}
+	div.hamburgers{
+	display:block;
+	position: relative;
+	left: -10px;
+	top: -25px;
+	width: 20px;
+	height:10px;
+	}
+
+.asidess #asides{
+	width: 100%;
+	background-color: #fff;
+}
+h1{
+	font-size: 15px;
+	text-align: center;
+	padding-left: 70px;
+}
+.topfour{
+	font-size: 13px;
+	word-spacing: 3px;
+	margin: 10px;
+}
+.more{
+	position: relative;
+	left: 110px;
+	color:white;
+	border: none;
+	outline: none;
+	width: 60px;
+	height: 20px;
+	border-radius: 15%;
+	padding: 0;
+	margin: 20px;
+}
+.more a{
+	font-size: 8px;
+	margin: 20px;
+	padding-top:-5px;
+}
+.follow{
+	font-size: 12px;
+	word-spacing: 3px;
+	margin-bottom:20px;
+}
+h4{
+	font-size: 14px;
+	left: -15px;
+}
+.contact{
+	left: 100px;
+	font-size: 13px;
+	border:none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	border-radius: 30%;
+}
+#buttoned{
+	left:10px;
+	font-size: 13px;
+	width: 80px;
+	height:20px;
+
+}
+form{
+	margin-bottom: 40px;
+}
+#textarea{
+	left: -5px;
+}
+.footer{
+	width:100px;
+	height:180px;
+	float: left;
+	font-size:13px;
+	
+}
+.footer a {
+	font-size: 13px;
+	top: 85px;
+}
+#span{
+	top: 85px;
+}
+#spantoggle{
+	display: none;
+}
+.togggling{
+	display: block;
+}
+h5{
+	font-size: 14px;
+	position: relative;
+	top: 40px;
+}
+h6{
+	top:120px;
+	margin: 30px;
+	font-size: 14px;
+}
+.project h5{
+	position: relative;
+	color: white;
+}
+.emailing{
+	top: -20px;
+	right: -10px;
+	font-size: 12px;
+}
+#inputing{
+	position: relative;
+	left: 400px;
+	top: 115px;
+	width: 160px;
+	height: 24px;
+	background-color: white;
+}
+.h5{
+	position: relative;
+	top: 80px;
+	left: -220px;
+	width: 200px;
+	font-size: 14px;
+	color: #fff;
+}
+.support{
+	width: 120px;
+	height: 30px;
+	position: relative;
+	left: -330px;
+	top: 85px;
+	border: none;
+	margin-left: -10px;
+	background-color: deeppink;
+	color: white;
+}
+.phone{
+	position: relative;
+	right: -20px;
+}
+.phone h5{
+	width: 150px;
+}
+#footone{
+	height: 150px;
+	margin-bottom: 50px;
+}
+ .project h5{
+	position: relative;
+	top: 50px;
+}
+#last{
+	height: 30px;
+}
+.final{
+	font-size: 13px;
+	color:white;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+.back{
+	height: 30px;
+	position: relative;
+	top: -20px;
+}
+.backtotop{
+	font-size: 13px;
+}
+}

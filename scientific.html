@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>scientific calculator</title>
+	<link rel="stylesheet" type="text/css" href="scientific.css">
+	<script type="text/javascript" src="scientific.js"></script>
+</head>
+<body>
+	<div class="usage">
+	<h3>About the  calculator</h3>
+	<marquee direction="up" scrolldelay="seconds" scrollamount="2" height="400px">
+	<ul>
+		<li>I developed this by comparing it with my phone calculator which is <b>Itel p32</b>. So,i am open to any critism and kudos will be welcome as well.</li>
+		<h3>Usage of the calculator for non-itel p32 users</h3>
+		<li>Click the figures buttons  before clicking the function buttons for any operation.</li>
+		<li>Click the <b>AC</b> button to erase the value completely(though this is not added to the main calculator).</li>
+		<li>Cllick the <b>light-green</b> to operate the scientifc aspects of the calculator.</li>
+		<li>Click the <b>light-green</b> back to close the scientific page.</li>
+		<li>Click the <b>INV</b> button after clicking the <b>light-green</b> to operate with 
+			<ul>
+				<li>Arc sine(sin`1)</li>
+				<li>Arc cos(cos`1)</li>
+				<li>Arc tan(tan`1)</li>
+				<li>10x(to get any value raised to the power of 10)</li>
+				<li>ex(to get the exponencial function of any number)</li>
+				<li>!(to get the factorial value of any number)</li>
+			</ul>
+		</li>
+		<li>Click the <b>INV</b> button back to display it off immediately after its operation otherwise, it may bring confusion when operating <b>AC & DEL</b> buttons.</li>
+		<h3>For enquiries</h3>
+		<li>Phone:09056553382</li>
+		<li>Whatsapp:07085007467</li>
+		<li>Email:oladayoahmod112@gmail.com</li>
+	</ul>
+</marquee>
+</div>
+	<div class="container">
+		<div id="result"></div>
+	<div class="sectionone">
+		<button onclick="seven()">7</button>
+		<button onclick="eight()">8</button>
+		<button onclick="nine()">9</button>
+		<button onclick="four()">4</button>
+		<button onclick="five()">5</button>
+		<button onclick="six()">6</button>
+		<button onclick="one()">1</button>
+		<button onclick="two()">2</button>
+		<button onclick="three()">3</button>
+		<button onclick="point()">.</button>
+		<button onclick="zero()">0</button>
+		<button onclick="equal()">=</button>
+	</div>
+	<div class="sectiontwo">
+		<button onclick="del()">DEL</button>
+		<button onclick="ac()">AC</button>
+		<button onclick="divide()">&#247</button>
+		<button onclick="multiply()">*</button>
+		<button onclick="minus()">-</button>
+		<button onclick="plus()">+</button>
+	</div>
+	<div onclick="toggle()" class="toggle"></div>
+		<div id="toggle">
+			<button onclick="inv()">INV</button>
+			<button onclick="deg()">DEG</button>
+			<button onclick="percent()">%</button>
+			<button onclick="sin()">sin</button>
+			<button onclick="cos()">cos</button>
+			<button onclick="tan()">tan</button>
+			<button onclick="In()">In</button>
+			<button onclick="log()">log</button>
+			<button onclick="factorial()">!</button>
+			<button onclick="pile()">pile</button>
+			<button onclick="e()">e</button>
+			<button onclick="raise()">^</button>
+			<button onclick="open()">(</button>
+			<button onclick="close()">)</button>
+		</div>
+		<div id="togglelast">
+			<button onclick="arcsine()">sin-1</button>
+			<button onclick="arccos()">cos-1</button>
+			<button onclick="arctan()">tan-1</button>
+			<button onclick="exp()">ex</button>
+			<button onclick="ten()">10x</button>
+			<button onclick="factorial()">!</button>
+
+		</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,285 @@
+body{
+	margin:0;
+	padding:0;
+}
+#general{
+	background-color:black;
+	width:100%;
+	height:150px;
+	position:static;
+
+}
+h1{
+	color:lightgreen;
+	font-weight:bold;
+	top:-100px;
+	position:relative;
+
+}
+.rc{
+	color:white;
+	left:347px;
+	bottom:-30px;
+	position:relative;
+}
+.center{
+	top:-130px;
+	color:white;
+	left:185px;
+	position:relative;
+}
+.num1{
+	top:-20px;
+	color:white;
+	text-align:right;
+	right:90px;
+	position:relative;
+}
+.num2{
+	top:-30px;
+	color:white;
+	position:relative;
+	text-align:right;
+	right:90px;
+}
+.email{
+	top:-40px;
+	color:white;
+	position:relative;
+	text-align:right;
+
+}
+.search{
+	left:1150px;
+	top:-150px;
+	position:relative;
+	color:lightgreen;
+}
+#go{
+	color:lightgreen;
+}
+.label{
+	color:white;
+	font-size:20px;
+	padding:5px;
+
+}
+/*dropdown links session of css and family associated*/
+.drops{
+	top:-150px;
+	position:relative;
+	display:inline-block;
+}
+.button{
+	background-color:dimgrey;
+	color:white;
+	border:none;
+	font-size:15px;
+	min-width:80px;
+	height:35px;
+	transition-property:background-color;
+	transition-duration:2s;
+}
+.button:hover{
+	background-color:orange;
+}
+.button a:active{
+	color:white;
+	background-color:lightgreen;
+}
+.dropdown-one{
+	position:relative;
+	display:inline-block;
+}
+
+.links{
+	display:none;
+	position:absolute;
+	background-color:lightgreen;
+    min-width:160px;
+    box-shadow:10px 18px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+}
+/*links apart begins*/
+
+.link a{
+	text-decoration:none;
+	color:white;
+}
+.but{
+	text-decoration:none;
+	background-color:lightgreen;
+    position:absolute;	
+}
+.but a{
+	text-decoration:none;
+}
+/*dropdown links session of css*/
+.links a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding:12px 16px;
+}
+.links a:hover{
+	background-color:lightgreen;
+}
+
+.drops:hover .links{
+	display:block;
+	background-color:dimgrey;
+}
+/*dropdown links session of css ends*/
+.madone{
+	left:20px;
+	position:relative;
+}
+/*headers are finished!*/
+.slides{
+	width:100%;
+	height:220px;
+	background-color:yellowgreen;
+}
+.white{
+	width:100%;
+	height:300px;
+	background-color:white;
+}
+.slides img{
+	float:right;
+	padding:5px;
+}
+.buttons{
+	position:relative;
+	bottom:-100px;
+	float:right;
+    background-color:red;
+	color:white;
+	border:none;
+	font-size:15px;
+	min-width:80px;
+	height:35px;
+	transition-property:background-color;
+	transition-duration:2s;
+	animation-fill-mode:forwards;
+}
+.buttons:hover{
+	background-color:dimgrey;
+}	
+#container{
+	position:relative;
+    display:flex;
+    justify-content:space-between;
+    background-color:#fff;
+}
+.health,.products,.store{
+	width:360px;
+	color:black;
+	font-weight:lighter;
+	height:401px;
+	padding:10px;
+	background-color:#fff;
+}
+h3{
+	position:relative;
+	top:-80px;
+	left:100px;
+
+}
+.buttoned{
+	color:white;
+	background-color:yellowgreen;
+	width:150px;
+	height:22px;
+	position:relative;
+	right:-220px;
+	bottom:-50px;
+    transition-property:background-color;
+	transition-duration:1s;
+	animation-fill-mode:forwards;
+}
+.buttoned:hover{
+	background-color:dimgrey;
+}	
+#footer{
+	width:100%;
+	height:220px;
+	background-color:black;
+	display:flex;
+	justify-content:space-between;
+
+}
+.oaddress,.faddress,.who{
+	width:360px;
+	color:#fff;
+	font-weight:lighter;
+	height:200px;
+	padding:10px;
+	background-color:black;
+}
+.flows{
+	display:inline-block;
+	opacity:0;
+	text-decoration:none;
+	border:1px solid #fff;
+	color:yellowgreen;
+	background-color:black;
+	animation-name:flow;
+	animation-duration:2s;
+	animation-fill-mode:forwards;
+	transition-property:transform;
+	transition-duration:1s;
+}
+span{
+	color:yellowgreen;
+}
+span a{
+	text-decoration:none;
+	color:yellowgreen;
+}
+.flows:hover{
+	transform:rotateY(180deg);
+}
+@keyframes flow{
+	0%{
+		opacity:0
+			
+	}
+	100%{
+		opacity:1
+	}
+}
+#lastfooter{
+	width:100%;
+	height:50px;
+	background-color:yellowgreen;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*books section*/
+.books{
+	display:flex;
+}
+.words{
+	animation:image;
+	animation-duration:2s;
+}
+@keyframes image{
+	0%{left:-400px}
+	100%{left:10px}
+}
+.words{
+	width:150px;
+	height:250px;
+	word-spacing:5px;
+	font-size:18px;
+	padding:5px;
+}
+h2{
+	color:hotpink;
+	font-weight:lighter;
+}

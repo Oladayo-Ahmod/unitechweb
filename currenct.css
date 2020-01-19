@@ -1,0 +1,234 @@
+body{
+
+	background:grey;
+	margin-left:300px;
+	margin-top:60px;
+	font-family: cursive;
+	background-position: center;
+}
+h3{
+	text-align: center;
+	color: #fff;
+	text-shadow: 3px 3px 3px grey;
+
+}
+#container{
+	font-family: sans-serif;
+}
+.mar{
+color: #fff;
+}
+.marquee{
+	width: 300px;
+	background-color:#000;
+	position: absolute;;
+	right: -200px;
+	height: 600px;
+	padding: 10px;
+}
+#British{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Euro{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Swiss{
+width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Australian{
+width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;	
+}
+#Canadian{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#American{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Chiness{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Indian{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#pakistan{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Euro{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Saudi{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Arab{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#Korean{
+	width: 250px;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	color: red;
+	left:200px;
+	position: relative;
+}
+#container input[type="number"]{
+	color: white;
+	width: 250px;
+	height:50px;
+	background-color:black;
+	position: relative;
+	left: 210px;
+}
+.british{
+	position: relative;
+	left:109px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.euro{
+	position: relative;
+	left:170px;
+	bottom:40px;
+	font-size: 18px;
+	color:skyblue;
+
+}
+.swiss{
+	position: relative;
+	left:115px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+
+}
+.american,.canadian,.australian{
+	position: relative;
+	left:83px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.chiness{
+	position: relative;
+	left:109px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.indian{
+		position: relative;
+	left:109px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.pakistan{
+	position: relative;
+	left:144px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.saudi{
+	position: relative;
+	left:119px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.arab{
+	position: relative;
+	left:74px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.korean{
+	position: relative;
+	left:113px;
+	bottom:55px;
+	font-size: 18px;
+	color:skyblue;
+}
+.Ahmod{
+	color:#fff;
+	text-shadow: 6px 6px 6px salmon;
+	position: relative;
+	left:220px;
+}
+h2{
+	font-size: 14px;
+}

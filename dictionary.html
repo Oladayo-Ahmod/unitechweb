@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dictionary App</title>
+	<link rel="stylesheet" type="text/css" href="dictionary.css">
+	<script src="dictionary.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="container">
+		<div class="contains">
+		<input type="text" name="text" id="text">
+		<button id="speak">speak</button>
+	</div>
+	<div class="defs">
+		<h5 class="words"></h5>
+		<h6 class="type"></h6>
+		<p class="defs"></p>
+	</div>
+	<input type="text" name="" id="forces">
+	<button id="lekan" onclick="meaning()">dict</button>
+	</div>
+	<script type="text/javascript">
+		/*const meaning = () =>{
+			let word = document.querySelector("#text").value;
+			fetch('https://definitionapi.cf/'+ word).then(res=>res.json()).then(data=> {
+				let wording = document.querySelector(".words")
+				let type = document.querySelector(".type")
+				let defs = document.querySelector(".defs")
+				if (data.word == undefined) {
+					wording.innerHTML = data.error
+				}
+				else{
+					wording.innerHTML = data.word
+					type.innerHTML = data.type
+					data.definitionforEach(defs)
+				}
+			})
+		}*/
+
+
+		let text = document.querySelector("#text");
+		let speak = document.querySelector("#speak");
+		speakNow = ()=>{
+			let speech = new SpeechSythesisUtterance();
+			speech.rate = 0.7;
+			speech.volume = 3;
+			speech.pitch = 0.1;
+			speech.voice = SpeechSythesis.getVoices()[0];
+			speech.text = text.value;
+			SpeechSythesis.speak(speech)
+		}
+		speak.onclick =function(e){
+			e.preventDefault();
+			alert("dhbdb");
+			speakNow();
+		}
+
+
+
+
+	</script>
+</body>
+</html>

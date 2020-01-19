@@ -1,0 +1,159 @@
+body{
+	font-family: cursive,sans-serif;
+	background-color: black;
+}
+.sectionone{
+	width: 270px;
+	display:grid;
+	position: relative;
+	left: 500px;
+	top:100px;
+	margin: 0;
+	padding: 0;
+	background-color:dimgrey;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	grid-template-rows:minmax(100px,auto)repeat(4,100px);
+	grid-template-columns: repeat(3,100px);
+
+}
+.sectionone > button{
+	margin: 10px;
+	min-height: 10vh;
+	background:transparent;
+	padding: 0;
+	color: white;
+	font-size: 20px;
+	border: none;
+	outline: none;
+}
+.sectiontwo{
+	display: grid;
+	height: 500px;
+	width: 75px;
+	position: relative;
+	left: 760px;
+	top: -400px;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+.sectiontwo > button{
+	background:transparent;
+	position: relative;
+	bottom:20px;
+	top: 10px;
+	width: 50px;
+	height: 5px;
+	color: white;
+	font-size: 20px;
+	border: none;
+	outline: none;
+}
+#result{
+	width: 355px;
+	height: 100px;
+	position: relative;
+	left: 500px;
+	top: 100px;
+	background-color: white;
+	color: black;
+	display:flex;
+	grid-column: 1/-1;
+	justify-content: space-around;
+	align-content: flex-end;
+	align-items: flex-end;
+	padding-bottom:-10px; 
+	flex-direction: column;	
+
+}
+.basket{
+	display: block;
+	height: 500px;
+	width:250px;
+	position: relative;
+	top: -1400px;
+	left: 585px;
+	background-color: lightgreen;
+}
+.basket > button{
+    display: grid;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: repeat(5,70px);
+    grid-template-columns: repeat(3,70px);
+
+}
+.toggle{
+	width: 20px;
+	height: 500px;
+	position: relative;
+	top: -900px;
+	left: 835px;
+	background-color:lightgreen;
+}
+#toggle{
+	display: block;
+}
+#toggle{
+    display: grid;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: repeat(5,70px);
+    grid-template-columns: repeat(3,70px);
+
+}
+#toggle > button{
+background:transparent;
+margin: 0;
+border: none;
+outline: none;
+font-weight:lighter;
+color: black;
+padding: 0;
+}
+.togglelast{
+	display: grid;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: repeat(2,70px);
+    grid-template-columns: repeat(3,70px);
+}
+
+.togglelast > button{
+margin: 0;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: lightgreen;
+font-weight:lighter;
+padding: 0;
+}
+.togglelast{
+	width: 190px;
+	height: 90px;
+	color: transparent;
+	position: relative;
+	top: -1730px;
+	left: 610px;
+	background-color:lightgreen;	
+}
+.usage{
+	background-color: #fff;
+	height: 500px;
+	width: 400px;
+	position: relative;
+	top: 600px;
+}
+h3{
+	text-align: center;
+	text-shadow: 3px 3px 3px #000;
+
+}

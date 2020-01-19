@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+	 <title>Nigerian currency</title>
+      <meta charset="utf-8">
+       <meta name="Oladayo Ahmod">
+	    <link rel="stylesheet" type="text/css" href="currenct.css">
+	     <script type="text/javascript" src="weight.js"></script>
+			</head>
+<body>
+<div class="marquee">
+  <h3>About the currency converter</h3>
+    <marquee class="mar" direction="up" scrolldelay="seconds" scrollamount="2" height="500px">
+      <p>I developed this for the easiest convertion rate of Nigeria currency to 12 different currencies automatically.</p>
+        <ul>The 12 currencies are:
+	       <li>British pound</li>
+			  <li>Euro</li>
+			     <li>Swiss Franc</li>
+			       <li>American Dollar</li>
+			          <li>Canadian Dollar</li>
+						 <li>Australian Dollar</li>
+						     <li>Chinese Yuan</li>
+								<li>Indian Rupee</li>
+									<li>Pakistan</li>
+										<li>Saudi Riyad</li>
+											<li>UAE</li>
+												<li>Korean Won</li>
+													<h3>For enquiries</h3>
+														<li>Phone:+2349056553382</li>
+															<li>Whatsapp:+2347085007467</li>
+																<li>Email:oladayoahmod112@gmail.com</li>
+																	</ul>
+																		<h2>last update:10/10/2019</h2>
+																			</marquee>
+																				</div>
+																		<div id="container">
+																	<p class="Ahmod">Developed By Oladayo Ahmod</p>
+																<input  id = "input" type="number" name="weightconverter" placeholder="Enter Nigerian currency..">
+															<div id="British"></div><small class="british">British pound</small>
+														<div id="Euro"></div><small class="euro">Euro</small>
+													<div id="Swiss"></div><small class="swiss">Swiss Franc</small>
+												<div id="American"></div><small class="american">American Dollar</small>
+											<div id="Canadian"></div><small class="canadian">Canadian Dollar</small>
+										<div id="Australian"></div><small class="australian">Australian Dollar</small>
+									<div id="Chiness"></div><small class="chiness">Chinees Yuan</small>
+								<div id="Indian"></div><small class="indian">Indian Rupee</small>
+							<div id="pakistan"></div><small class="pakistan">pakistan</small>
+						<div id="Saudi"></div><small class="saudi">Saudi riyad</small>
+					<div id="Arab"></div><small class="arab">Un.Arab Emirates</small>
+				<div id="Korean"></div><small class="korean">Korean Won</small>
+
+</div>
+	<script type="text/javascript">
+		document.getElementById("input").addEventListener('input', function(currency){
+			let nigerian = currency.target.value;
+			let nigerians = nigerian.toLocaleString("en");
+				document.getElementById("British").innerHTML = "$"+nigerian/466.3;
+					document.getElementById("Euro").innerHTML = "€"+nigerian/402.8;
+						document.getElementById("Swiss").innerHTML = "₣"+nigerian/366.3;
+							document.getElementById("American").innerHTML = "$"+nigerian/362;
+								document.getElementById("Canadian").innerHTML = "$" +nigerian/275.3;
+									document.getElementById("Australian").innerHTML = "$"+nigerian/249.2;
+										document.getElementById("Chiness").innerHTML = "¥"+nigerian/51.49;
+											document.getElementById("Indian").innerHTML = "Rs"+nigerian/5.109;
+												document.getElementById("pakistan").innerHTML = "₨"+nigerian/2.326;
+													document.getElementById("Saudi").innerHTML = nigerian/96.52+"ر.س" ;
+														document.getElementById("Arab").innerHTML = nigerian/98.55  +"د.إ";
+															document.getElementById("Korean").innerHTML = "₩"+nigerian/0.3112;
+		})
+	</script>
+</body>
+</html>

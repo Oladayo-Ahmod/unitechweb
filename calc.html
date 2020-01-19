@@ -1,0 +1,94 @@
+<!DOCTYPEhtml>
+   <head>
+     <title>My Calcuator</title>
+	  <meta charset = "UTF-8">
+	  <script src = "calc.js"></script>
+	  <link rel = "stylesheet" href ="calcs.css">
+    <style type="text/css">
+      #lekan{
+        width: 200px;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 20%;
+        cursor: pointer;
+        display: inline-block;
+        background-color:sticky;
+        position: relative;
+        bottom: -650px;
+        left: 400px;
+      }
+    </style>
+</head>
+<body>
+  <button onclick="lekan" id="lekan">click to change the bg color</button>
+    <div class="animation">
+      <span>U</span>
+      <span>n</span>
+      <span>i</span>
+      <span>t</span>
+      <span>e</span>
+      <span>c</span>
+      <span>h</span>
+    </div>
+     <!--  calculator coding section-->
+	  <div id="container">
+   	<div class="output">
+     <div class="previous">coded by Ahmod</div>
+     <div id="current"></div>
+     </div>
+      <button onclick="ac()" class ="symbols">AC</button>
+     	<button onclick="del()" class="symbols">DEL</button>
+      <button onclick="pow()" class ="symbols">POW</button>
+      <button onclick="divide()" class ="symbols">&#247</button>
+     	<button onclick="one()" class="figures">1</button>
+     	<button onclick="two()" class="figures" >2</button>
+     	<button onclick="three()" class="figures">3</button>
+     	<button onclick="multiply()" class="symbols">*</button>
+     	<button onclick="four()" class="figures">4</button>
+     	<button onclick="five()" class="figures">5</button>
+     	<button onclick="six()" class="figures">6</button>
+     	<button onclick="plus()"class="symbols">+</button>
+     	<button onclick="seven()" class="figures">7</button>
+     	<button onclick="eight()" class="figures">8</button>
+     	<button onclick="nine()" class="figures">9</button>
+     	<button onclick="minus()" class="symbols">-</button>
+     	<button onclick="point()" class="symbols">.</button>
+     	<button onclick="zero()" class="figures">0</button>
+      <button onclick="equal()" class="symbols">=</button>
+          <button onclick="sqrt()" class="symbols">SQRT</button>
+  </div>
+  <div class="enquiry">
+      <form>
+        <p class="capting">Know Year Of Birth</p>
+         <br/>
+          <label class="label">Your Name</label>
+           <br/>
+            <input type="text" id="result" name="username" placeholder="Your name">
+             <br/>
+              <label class="label">Your Current Age</label>
+               <br/>
+                <input type="text" id="inputing" name="" placeholder="Your age">
+                 <br/>
+                  <label class="label">Place of Birth</label>
+                   <br/>
+                    <textarea name="message" cols="20" rows="3"></textarea>
+                     <br/>
+                      <button onclick ="show()" class="button">Send</button>          
+      </form>
+    </div>
+    <div id="good">
+    </div>
+    <script type="text/javascript">
+      const color = ['yellow','green','pink','orange','sticky','salmon'];
+      const keep = document.querySelector('body');
+      const bodying = document.getElementById("lekan");
+      bodying.addEventListener('click', leks = ()=>{
+      for (let i = 0; i < color.length; i++) {
+        let name = (Math.floor(Math.random(color)*color.length));
+        keep.style.backgroundColor = color[name];
+      }
+    });
+    </script>
+</body>
+</html>
